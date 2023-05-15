@@ -1,7 +1,7 @@
 # Projeto_final_techacker - Detector de privacidade
 
 ## Feito por:
-### Rodrigo
+### Rodrigo Nigri Griner [(link para o github)](https://github.com/rodrigonigri)
 
 ## Descrição do projeto:
 O projeto consiste na criação de uma extensão Firefox para detecção de ataques e violação de privacidade em cliente web.
