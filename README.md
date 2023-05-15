@@ -12,7 +12,7 @@ O projeto consiste na criação de uma extensão Firefox para detecção de ataq
 - CSS
 - Json
 
-## checklist:
+## Checklist:
 ### Requisitos mínimos:
 - [x] Criar o repositório
 - [ ] Detectar as conexões a domínios de terceira parte em uma navegação web;
