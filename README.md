@@ -15,6 +15,7 @@ O projeto consiste na criação de uma extensão Firefox para detecção de ataq
 ## Checklist:
 ### Requisitos mínimos:
 - [x] Criar o repositório
+- [ ] Criar a extensão simples
 - [ ] Detectar as conexões a domínios de terceira parte em uma navegação web;
 - [ ] Detectar potenciais ameaças de sequestro de navegador (hijacking e hook);
 - [ ] Detectar o armazenamento de dados (storage local – html5) no dispositivo do usuário;
