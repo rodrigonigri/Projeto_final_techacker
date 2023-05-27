@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "MyProtec",
+  "version": "1.0",
+  "permissions": ["cookies","<all_urls>","tabs"],
+
+
+  "description": "Protects your network.",
+
+  "icons": {
+    "48": "logo.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["externalConnections.js"],
+      "css": ["popup.css"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_title": "Protec",
+    "default_popup": "popup.html"
+  }
+}
