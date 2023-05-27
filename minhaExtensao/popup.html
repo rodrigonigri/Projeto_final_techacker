@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+
+  <body>
+    <!-- add image logo.png -->
+    <div class="logo">
+      <img src="logo.png" alt="logo" width="32" height="32">
+    </div>
+    <div class="text-section-header" id="header-title"><b>Page Title: </b></div>
+
+    <button id="cookiesButton">Show Cookies</button>
+    <button id="externalButton">Show External Connections</button>
+    <button id="sessionButton">Show Session Storage</button>
+    <button id="localButton">Show Local Storage</button>
+
+    <hr class="solid">
+    <!----------------------------------------------------------------------------------------->
+
+    <div class="cookies">
+      <b id="cookiesId">Cookies: </b>
+      <div class="panel-section panel-section-header">
+      </div>
+      <ul id="cookie-list" style="display: none;">
+      </ul>
+    </div>
+
+    <hr class="solid">
+    <!----------------------------------------------------------------------------------------->
+
+    <div class="text-section-header">
+      <b id="externalId">External connections: </b>
+      <ul id="rd" style="display: none;">
+
+      </ul>
+    </div>
+
+    <hr class="solid">
+    <!----------------------------------------------------------------------------------------->
+
+    <div class="SessionStorage">
+      <b id="sessionId">Session Storage</b>
+      <ul id="sessionstorage" style="display: none;"></ul>
+    </div>
+
+    <hr class="solid">
+    <!----------------------------------------------------------------------------------------->
+
+    <div class="LocalStorage">
+      <b id="localId">Local Storage</b>
+      <ul id="localstorage" style="display: none;"></ul>
+    </div>
+
+    
+
+    <script src="popup.js"></script>
+  </body>
+</html>
