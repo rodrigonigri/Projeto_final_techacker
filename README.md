@@ -27,3 +27,5 @@ O projeto consiste na criação de uma extensão Firefox para detecção de priv
 5. Clique em "Load Temporary Add-on..."
 6. Selecione o arquivo manifest.json
 7. A extensão estará disponível no canto superior direito do navegador
+
+![plugin](https://github.com/rodrigonigri/Projeto_final_techacker/assets/62730936/c78fdf49-7d57-4838-9cf8-093584d74454)
